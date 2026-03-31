@@ -1,0 +1,643 @@
+{
+  "business": {
+    "name": "Heritage Roof Masters",
+    "phone": "(617) 555-0612",
+    "category": "roofing",
+    "city": "Boston",
+    "state": "MA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Boston's Trusted Roofing Experts",
+      "heroSubline": "Protecting your home from New England's toughest weather. Heritage Roof Masters delivers lasting solutions for historic brownstones and modern homes alike.",
+      "aboutTitle": "Rooted in Boston, Built on Trust",
+      "aboutText": [
+        "Founded in 2011, Heritage Roof Masters began with a simple mission: to preserve Boston's architectural heritage while providing modern roofing solutions. Our team of local craftsmen understands the unique challenges posed by coastal weather and historic homes.",
+        "We combine traditional craftsmanship with cutting-edge materials to create roofs that withstand nor'easters, salt air, and freeze-thaw cycles. Every project receives the same attention to detail we'd give our own homes.",
+        "When we're not replacing slate on Beacon Hill or repairing triple-deckers in Dorchester, we're coaching Little League or volunteering at community housing projects. This city shaped us, and we're committed to giving back."
+      ],
+      "valueProps": [
+        {
+          "title": "Historic Home Specialists",
+          "description": "We're one of few roofers certified to work on Boston's protected historic properties, with extensive experience maintaining architectural integrity."
+        },
+        {
+          "title": "Storm Damage Rapid Response",
+          "description": "When nor'easters hit, our emergency crews prioritize making your home watertight within 24 hours."
+        },
+        {
+          "title": "Freeze-Thaw Experts",
+          "description": "Our ice dam prevention systems are specifically designed for New England's temperature swings."
+        },
+        {
+          "title": "Coastal-Grade Materials",
+          "description": "We use salt-resistant flashing and fasteners that stand up to Boston Harbor's corrosive air."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Roof Evaluation",
+      "ctaSubline": "Complete our quick form and one of our local experts will assess your roof's condition within 48 hours."
+    },
+    "services": [
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Complete roof solutions designed for Boston's historic homes and harsh coastal climate.",
+        "description": "Boston's architectural treasures deserve roofing solutions that protect their character while meeting modern performance standards. At Heritage Roof Masters, we specialize in roof replacements that respect your home's history.\n\nFor Back Bay brownstones, we replicate original slate profiles using durable synthetic materials that mimic historic appearances without the weight or maintenance. In Cambridge's Victorian districts, we install copper flashing with proper step details to prevent ice dam leaks common in ornate dormers.\n\nWe start every replacement with a structural assessment, checking for hidden rot in triple-decker rafters or compromised sheathing in older Colonials. Our tear-off process includes full debris containment - crucial when working near Fenway Park or Boston Common where wind can carry shingle particles.\n\nMaterial selection considers microclimates: heavier underlayment for ocean-facing Quincy homes, specialized ventilation for Brookline's dense apartment buildings, and impact-resistant shingles for Newton areas prone to hail.",
+        "process": [
+          "Step 1: Comprehensive inspection including attic airflow analysis and moisture scanning",
+          "Step 2: Historic review (for applicable properties) to maintain architectural compliance",
+          "Step 3: Debris-protected tear-off with magnetized cleanup for nail collection",
+          "Step 4: Installation with climate-appropriate underlayment and ice/water barriers"
+        ],
+        "benefits": [
+          "Materials rated for 110+ mph winds",
+          "10-50 year material warranties",
+          "Historic District approval-ready designs",
+          "Ice dam prevention systems"
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical Boston roof replacement take?",
+            "answer": "Most residential projects in Back Bay or South End take 3-5 days depending on complexity. We coordinate with historic commissions when required and always maintain weather protection during the process."
+          },
+          {
+            "question": "Do you handle the permitting process?",
+            "answer": "Yes, we manage all permits including Boston's historic district approvals. Our team knows each neighborhood's requirements from Jamaica Plain to Charlestown."
+          },
+          {
+            "question": "What makes Boston roofs different?",
+            "answer": "Our roofs combat unique challenges: salt corrosion near the harbor, heavy snow loads, and intricate flashing needs on historic masonry. We design for these factors from the start."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-repair",
+        "name": "Storm Damage Repair",
+        "shortDescription": "Emergency repairs to protect your home after nor'easters and coastal storms.",
+        "description": "When nor'easters barrel up the coast or summer thunderstorms pound Jamaica Plain, Heritage Roof Masters is ready with 24/7 emergency response. We've repaired storm damage on everything from Charlestown's historic clapboards to Newton's Tudor estates.\n\nOur rapid response teams carry temporary sealing materials to make your home watertight immediately after damage occurs. For coastal properties in Quincy, we prioritize fixing salt-sprayed flashing that can corrode rapidly. In Brookline's dense neighborhoods, we carefully contain debris that might affect adjacent properties.\n\nWe document all damage with detailed reports for insurance claims, including close-up photos of hail impacts on asphalt shingles or wind-lifted edges on metal roofs. Our adjuster-friendly reports speed up claims processing for Cambridge homeowners.\n\nLong-term repairs go beyond patching - we address underlying vulnerabilities. After securing your property, we'll recommend preventive measures like hurricane clips for South End brownstones or reinforced edges for Dorchester's gable roofs.",
+        "process": [
+          "Step 1: Emergency tarping or sealing within 24 hours of call",
+          "Step 2: Detailed damage documentation for insurance",
+          "Step 3: Structural assessment for hidden issues",
+          "Step 4: Permanent repairs with storm-resistant materials"
+        ],
+        "benefits": [
+          "24/7 emergency response team",
+          "Insurance claim assistance",
+          "Salt-resistant repair materials",
+          "Preventative upgrade options"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond after a storm?",
+            "answer": "We guarantee initial contact within 2 hours and emergency protection within 24 hours for all Boston metro areas, with priority given to severe leaks and historic properties."
+          },
+          {
+            "question": "Do you work directly with insurance companies?",
+            "answer": "Yes, we've established relationships with major insurers serving Massachusetts and can often expedite approvals for necessary repairs."
+          },
+          {
+            "question": "What storm damage is common in Newton?",
+            "answer": "Newton's tree-lined streets often see damage from fallen limbs and wind-driven debris. We're experienced with the slate and copper roofs common in this area."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-roofing",
+        "name": "Commercial Roofing",
+        "shortDescription": "Durable roofing solutions for Boston-area businesses and institutions.",
+        "description": "From Faneuil Hall storefronts to Harvard Square office buildings, Heritage Roof Masters understands the unique demands of commercial roofing in Greater Boston. We specialize in low-disruption installations that keep your business operating.\n\nFor Cambridge's tech campuses and medical buildings, we install high-reflectivity roofs that reduce urban heat island effects. Quincy's waterfront restaurants benefit from our marine-grade membrane systems that resist salt spray. We're experienced with Boston's strict fire codes for multi-use buildings in neighborhoods like Back Bay.\n\nOur commercial team works efficiently during off-hours when needed, using advanced staging techniques to minimize impact on your operations. We've completed projects at active locations from Fenway Park concession stands to MIT research facilities without disrupting daily activities.\n\nPreventive maintenance programs include semi-annual inspections with thermal imaging to catch small issues before they become costly leaks - particularly important for Newton's historic commercial blocks with sensitive interiors below.",
+        "process": [
+          "Step 1: After-hours assessment to minimize business disruption",
+          "Step 2: Custom phasing plan for your operating schedule",
+          "Step 3: Installation with premium commercial-grade materials",
+          "Step 4: Ongoing maintenance program tailored to roof type"
+        ],
+        "benefits": [
+          "Minimized business disruption",
+          "Energy-efficient material options",
+          "Fire code-compliant installations",
+          "10-30 year commercial warranties"
+        ],
+        "faq": [
+          {
+            "question": "Can you work around our business hours?",
+            "answer": "Absolutely. We regularly complete projects for Boston hospitals, universities, and retailers using overnight crews or weekend work schedules as needed."
+          },
+          {
+            "question": "What roofing systems work best for flat roofs in Boston?",
+            "answer": "Modified bitumen and TPO membranes are excellent for our climate, offering durability against freeze-thaw cycles. We'll recommend based on your building's specific needs."
+          },
+          {
+            "question": "Do you handle rooftop equipment installations?",
+            "answer": "Yes, we coordinate with HVAC teams to properly flash around units and ensure your roof maintains its warranty after installations."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-installation",
+        "name": "Gutter Installation",
+        "shortDescription": "Protect your foundation with Boston-tested gutter systems.",
+        "description": "Proper gutters are Boston's first defense against basement flooding and ice dams. Heritage Roof Masters designs gutter systems that handle our heaviest downpours while complementing your home's architecture.\n\nFor Beacon Hill's historic row houses, we fabricate half-round copper gutters that match original profiles. In Jamaica Plain's Craftsman bungalows, we install oversized aluminum systems to manage heavy leaf loads from mature trees. All our installations include hidden hangers that preserve clean lines on Newton's upscale homes.\n\nWe pay special attention to slope calculations - crucial in Boston where a single stuck icicle can tear down entire sections. Downspouts are sized for rapid drainage during summer cloudbursts and positioned to avoid flooding neighboring properties in tight urban lots.\n\nOur freeze-resistant systems include heated gutter cables for problem areas and leaf guards that actually work with New England's specific debris mix. We warranty against ice damage and improper drainage - rare in the industry.",
+        "process": [
+          "Step 1: Precise measurement accounting for roof area and pitch",
+          "Step 2: Custom fabrication (for copper/historic systems)",
+          "Step 3: Installation with reinforced hangers every 24 inches",
+          "Step 4: Water test to verify proper flow and drainage"
+        ],
+        "benefits": [
+          "Historic-profile options available",
+          "Debris-resistant designs",
+          "Ice dam prevention features",
+          "Hidden hanger systems"
+        ],
+        "faq": [
+          {
+            "question": "How often should Boston gutters be replaced?",
+            "answer": "With proper maintenance, our aluminum systems last 20+ years. Even in salt-heavy areas like Quincy, our marine-grade aluminum holds up far longer than standard gutters."
+          },
+          {
+            "question": "Can gutters help prevent ice dams?",
+            "answer": "Absolutely. Properly sized and sloped gutters prevent water backup that causes ice dams. We also install heated systems for problem areas in Brookline and Newton's colder microclimates."
+          },
+          {
+            "question": "Do you match existing gutter profiles?",
+            "answer": "Yes, we've catalogued hundreds of historic profiles from Back Bay to Cambridge and can fabricate matches for preservation projects."
+          }
+        ]
+      },
+      {
+        "slug": "roof-inspection",
+        "name": "Roof Inspection",
+        "shortDescription": "Comprehensive assessments to catch problems before they become emergencies.",
+        "description": "Boston's variable weather takes a relentless toll on roofs. Heritage Roof Masters provides detailed inspections that spot developing issues before they lead to costly interior damage - especially important in historic properties with delicate plasterwork.\n\nOur certified inspectors use infrared cameras to detect hidden moisture in South End brownstones and thermal imaging to identify insulation gaps in Newton Colonials. We check for subtle signs of trouble like corroded flashing near the salt air of Boston Harbor or granule loss from hail impacts in Brookline.\n\nEvery inspection includes a prioritized repair list with time estimates, helping Cambridge homeowners plan budgets before small issues become urgent. We'll note potential insurance concerns like aging materials or storm vulnerabilities.\n\nPre-purchase inspections are particularly valuable in Boston's competitive housing market. Our reports help buyers understand true roof conditions on triple-deckers and Victorian homes, often negotiating better terms based on our findings.",
+        "process": [
+          "Step 1: Exterior assessment of all roof surfaces and penetrations",
+          "Step 2: Attic inspection for ventilation and hidden moisture",
+          "Step 3: Thermal imaging scan for insulation issues",
+          "Step 4: Detailed report with repair priorities and timelines"
+        ],
+        "benefits": [
+          "Certified infrared inspections",
+          "Storm damage documentation",
+          "Pre-purchase evaluations",
+          "Maintenance planning guidance"
+        ],
+        "faq": [
+          {
+            "question": "How often should Boston roofs be inspected?",
+            "answer": "We recommend annual inspections, with additional checks after severe weather. Historic homes in Beacon Hill or properties near the ocean may benefit from semi-annual reviews."
+          },
+          {
+            "question": "Can inspections help with insurance claims?",
+            "answer": "Yes, our documentation often supports claims for storm damage that wasn't immediately apparent. We provide insurance-friendly reports with timestamps."
+          },
+          {
+            "question": "Do you inspect flat roofs on commercial properties?",
+            "answer": "Absolutely. Our commercial inspections include core sampling and membrane testing where appropriate, with specialized reporting for property managers."
+          }
+        ]
+      },
+      {
+        "slug": "shingle-repair",
+        "name": "Shingle Repair",
+        "shortDescription": "Precision repairs to extend your roof's life between replacements.",
+        "description": "Even minor shingle damage can lead to major leaks in Boston's driving rains. Heritage Roof Masters provides meticulous repairs that blend seamlessly with your existing roof, whether it's a Charlestown colonial or a modern Quincy home.\n\nWe carry hundreds of shingle varieties to match Boston's diverse housing stock - from three-tab asphalt on Dorchester triple-deckers to premium architectural shingles on Newton estates. Our color-matching process ensures repairs disappear visually while performing like new.\n\nEach repair addresses the root cause: we reinforce underlying decking if we find soft spots, replace corroded flashing when working near the coast, and upgrade fasteners in wind-prone areas. Temporary patches aren't in our vocabulary - we fix it right the first time.\n\nFor historic districts like Back Bay or Cambridge's Victorian neighborhoods, we're skilled at discreet repairs that maintain architectural authenticity. Our techniques preserve original materials whenever possible while ensuring watertight performance.",
+        "process": [
+          "Step 1: Damage assessment with cause analysis",
+          "Step 2: Material matching from our extensive inventory",
+          "Step 3: Structural reinforcement if needed",
+          "Step 4: Precision repair with proper sealing and flashing"
+        ],
+        "benefits": [
+          "Exact material matches",
+          "Structural assessments included",
+          "Historic district compliant",
+          "5-year repair warranty"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my older shingles?",
+            "answer": "We maintain one of the largest shingle libraries in Massachusetts, with discontinued patterns specifically for Boston's housing stock. If we can't match perfectly, we'll recommend blending strategies."
+          },
+          {
+            "question": "How long do shingle repairs last?",
+            "answer": "Our repairs typically last the remaining life of your roof when done properly. We warranty all workmanship for 5 years regardless of material age."
+          },
+          {
+            "question": "Do you repair slate and tile roofs too?",
+            "answer": "Yes, we're specialists in historic materials. For Cambridge's Victorian homes and Brookline's Tudor revivals, we use traditional techniques with modern sealants for lasting repairs."
+          }
+        ]
+      },
+      {
+        "slug": "metal-roofing",
+        "name": "Metal Roofing",
+        "shortDescription": "Durable metal roofs built for Boston's coastal climate.",
+        "description": "Metal roofing offers ideal performance for New England's variable climate, and Heritage Roof Masters brings decades of experience installing these systems on Boston's historic and modern homes alike.\n\nWe customize each metal roof for its environment: heavier gauges near the salt air of Quincy, specialized snow brakes for Newton's hilltop homes, and concealed fastener systems for Back Bay's visible roof lines. Our standing seam installations move with temperature changes that crack lesser materials.\n\nFor historic properties in Cambridge and Beacon Hill, we replicate original metal profiles using modern materials that maintain architectural authenticity while offering 50+ year lifespans. Copper installations develop a beautiful patina that complements brick and stone facades.\n\nEnergy efficiency is a major benefit in Boston's climate. Our cool-roof metal options can reduce summer cooling costs by 25% in urban heat islands, while the inherent strength handles nor'easter winds that tear off other materials.",
+        "process": [
+          "Step 1: Structural analysis for weight requirements",
+          "Step 2: Custom panel fabrication for your roof's dimensions",
+          "Step 3: Precision installation with expansion accommodations",
+          "Step 4: Final inspection and maintenance briefing"
+        ],
+        "benefits": [
+          "50+ year lifespan",
+          "Wind ratings to 140 mph",
+          "Historic replication available",
+          "Energy-efficient options"
+        ],
+        "faq": [
+          {
+            "question": "Is metal roofing noisy in rain?",
+            "answer": "Properly installed with solid decking and insulation, metal roofs are no louder than other materials. We've installed them on Boston Symphony musicians' homes with no complaints."
+          },
+          {
+            "question": "How does metal handle Boston's snow?",
+            "answer": "Our systems include snow brakes and controlled slide paths that prevent dangerous avalanches while allowing gradual snow shedding. Perfect for Newton's steep roofs."
+          },
+          {
+            "question": "Can metal go over existing shingles?",
+            "answer": "Sometimes, but we generally recommend tear-off for optimal performance. We'll assess your specific situation and explain the tradeoffs."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Cambridge",
+        "slug": "cambridge-ma",
+        "state": "MA",
+        "content": "Serving Cambridge since our founding, we understand the unique roofing needs of this intellectual hub. From Victorian homes near Harvard Square to modern condos in Kendall Square, our team handles Cambridge's diverse architecture with expertise.\n\nWe're familiar with the city's strict preservation guidelines, having worked on numerous historic properties near Harvard Yard and along Brattle Street. Our roof replacements and repairs maintain the character of Cambridge's distinguished neighborhoods while incorporating modern weather protection.\n\nLocal challenges we address daily include ice dam formation on older homes, proper ventilation for converted attic spaces in Cambridgeport, and managing leaf accumulation from the city's abundant tree canopy. We've developed specialized solutions for MIT-area buildings needing sound attenuation from frequent helicopter traffic.",
+        "localContext": "Cambridge features dense historic districts with ornate Victorian and Queen Anne homes requiring specialized roofing approaches to maintain architectural integrity.",
+        "nearbyAreas": [
+          "Somerville",
+          "Arlington",
+          "Watertown"
+        ]
+      },
+      {
+        "city": "Newton",
+        "slug": "newton-ma",
+        "state": "MA",
+        "content": "Newton homeowners trust Heritage Roof Masters for roofing solutions that match their community's high standards. From Colonial revivals in Newton Centre to Tudor estates in Newtonville, we bring meticulous craftsmanship to every project.\n\nWe're experienced with Newton's varied topography - installing snow retention systems for homes on hills like Waban's Ridge, and wind-resistant solutions for exposed properties along the Charles River. Our local crews understand the importance of minimizing disruption in Newton's quiet neighborhoods.\n\nCommon issues we address include ice dam prevention for Newton's many older homes, proper ventilation for renovated attics in Newton Highlands, and historical compliance in Newton Corner's protected districts. We source materials that complement Newton's traditional architecture while providing modern performance.",
+        "localContext": "Newton's upscale homes range from historic Colonials to modern estates, all requiring roofing that balances aesthetics with New England weather resistance.",
+        "nearbyAreas": [
+          "Waltham",
+          "Wellesley",
+          "Needham"
+        ]
+      },
+      {
+        "city": "Brookline",
+        "slug": "brookline-ma",
+        "state": "MA",
+        "content": "Brookline's distinctive early 20th century architecture demands roofing specialists who understand preservation and performance. Heritage Roof Masters has served Brookline homes from Coolidge Corner to Washington Square for over a decade.\n\nWe're experts in handling Brookline's dense neighborhoods, where careful project planning prevents disruption to adjacent properties. Our teams are experienced with the town's mix of grand apartment buildings and cozy bungalows, providing solutions tailored to each structure.\n\nSpecific challenges we address include proper drainage for Brookline's many flat-roofed buildings, slate repair for historic properties near Larz Anderson Park, and managing the heavy leaf load from the town's mature trees. We coordinate closely with Brookline's preservation commission when working on protected properties.",
+        "localContext": "Brookline features early 20th century apartment buildings and homes requiring roofing solutions that preserve historic character while meeting modern standards.",
+        "nearbyAreas": [
+          "Brighton",
+          "Jamaica Plain",
+          "Allston"
+        ]
+      },
+      {
+        "city": "Quincy",
+        "slug": "quincy-ma",
+        "state": "MA",
+        "content": "From Wollaston's coastal homes to Quincy Center's mid-century neighborhoods, Heritage Roof Masters provides Quincy with roofing solutions built for oceanfront durability. We understand how salt air and nor'easters uniquely impact Quincy properties.\n\nOur team is experienced with Quincy's common housing styles, from 1950s Capes to waterfront condos. We use marine-grade materials that resist corrosion in coastal areas, and install wind-resistant systems for exposed locations near Marina Bay.\n\nWe address Quincy-specific challenges like preventing saltwater damage to flashing and fasteners, managing heavy snow loads on low-pitch roofs common in South Quincy, and repairing storm damage from nor'easters that hit the coast hardest. Our local warehouse keeps popular materials in stock for quick Quincy repairs after severe weather.",
+        "localContext": "Quincy's coastal location and mix of mid-century homes requires roofing materials that can withstand salt air and nor'easters while maintaining neighborhood aesthetics.",
+        "nearbyAreas": [
+          "Braintree",
+          "Weymouth",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Boston",
+        "slug": "boston-ma",
+        "state": "MA",
+        "content": "As Boston natives, we take special pride in protecting the roofs over our city's diverse neighborhoods. From Back Bay brownstones to triple-deckers in Dorchester, Heritage Roof Masters understands Boston's unique architectural landscape.\n\nWe're experienced with Boston's strict historic district requirements, having worked on preservation projects across Beacon Hill, the South End, and Jamaica Plain. Our teams know how to navigate narrow streets and tight workspaces in dense urban areas.\n\nBoston-specific challenges we address daily include ice dam prevention for flat-roofed South End buildings, proper ventilation for converted loft spaces, and repairing salt-corroded flashing in Seaport District properties. We use materials specifically tested against Boston's coastal weather patterns and urban pollution.",
+        "localContext": "Boston's historic brownstones, triple-deckers, and waterfront condos each require specialized roofing approaches to handle coastal weather and preservation requirements.",
+        "nearbyAreas": [
+          "Cambridge",
+          "Somerville",
+          "Chelsea"
+        ]
+      },
+      {
+        "city": "Back Bay",
+        "slug": "back-bay-ma",
+        "state": "MA",
+        "content": "Back Bay's iconic brownstones demand roofing specialists with historic preservation expertise. Heritage Roof Masters has served Back Bay homeowners for over a decade, completing projects from Commonwealth Avenue to Newbury Street.\n\nWe're intimately familiar with Back Bay's historic district requirements, using materials and techniques that preserve architectural integrity while providing modern protection. Our slate roof repairs on Commonwealth Avenue mansions are virtually indistinguishable from original work.\n\nSpecial challenges we address include proper drainage for Back Bay's flat roofs, discreet snow melt systems for brownstone stoops, and coordinating projects with the neighborhood's strict noise ordinances. We take extra precautions to protect ornate cornices and decorative elements during roofing work.",
+        "localContext": "Back Bay's historic brownstone district requires specialized roofing approaches that meet strict preservation standards while handling urban weather challenges.",
+        "nearbyAreas": [
+          "South End",
+          "Beacon Hill",
+          "Fenway"
+        ]
+      },
+      {
+        "city": "South End",
+        "slug": "south-end-ma",
+        "state": "MA",
+        "content": "South End homeowners trust Heritage Roof Masters for roofing that complements their neighborhood's distinctive character. From historic bow-fronts to modern loft conversions, we've worked on nearly every roof type found in this vibrant community.\n\nWe're experienced with South End's mix of preservation and innovation, helping homeowners navigate historic district requirements while incorporating modern roofing technologies. Our teams work discreetly in the neighborhood's tight urban lots.\n\nCommon South End challenges we address include proper ventilation for converted industrial buildings, ice dam prevention on flat-roofed properties, and managing roofing projects in the neighborhood's dense residential areas. We coordinate closely with the South End Landmark District Commission when needed.",
+        "localContext": "The South End's mix of historic bow-fronts and converted industrial buildings requires roofing solutions that balance preservation with modern performance needs.",
+        "nearbyAreas": [
+          "Back Bay",
+          "Roxbury",
+          "Chinatown"
+        ]
+      },
+      {
+        "city": "Beacon Hill",
+        "slug": "beacon-hill-ma",
+        "state": "MA",
+        "content": "Beacon Hill's Federal and Greek Revival homes require roofing artisans who understand historic preservation. Heritage Roof Masters is one of few contractors experienced with the neighborhood's strict architectural guidelines.\n\nWe've completed countless projects on Acorn Street, Louisburg Square, and throughout the historic district, always maintaining the neighborhood's distinctive character. Our craftsmen replicate original details like custom copper dormer flashing and slate repairs that match antique patterns.\n\nSpecial Beacon Hill challenges we address include working within extremely tight urban spaces, minimizing disruption to adjacent properties, and sourcing materials that meet preservation standards. We coordinate closely with the Beacon Hill Architectural Commission on all projects.",
+        "localContext": "Beacon Hill's historic Federal-style homes require roofing approaches that meticulously preserve original architectural details while providing modern protection.",
+        "nearbyAreas": [
+          "West End",
+          "Downtown",
+          "Back Bay"
+        ]
+      },
+      {
+        "city": "Jamaica Plain",
+        "slug": "jamaica-plain-ma",
+        "state": "MA",
+        "content": "Jamaica Plain's diverse housing stock, from Victorian mansions to Craftsman bungalows, demands roofing specialists with wide-ranging expertise. Heritage Roof Masters has served JP homeowners since our founding.\n\nWe're experienced with the neighborhood's unique challenges, including proper ventilation for converted triple-deckers near Jamaica Pond and managing heavy leaf accumulation from JP's urban forest. Our local crews understand the community's commitment to preservation and sustainability.\n\nCommon JP roofing issues we address include ice dam prevention on older homes, repairing slate roofs on historic properties like the Loring-Greenough House, and installing eco-friendly roofing options popular in this environmentally conscious neighborhood. We source materials that complement JP's architectural diversity.",
+        "localContext": "Jamaica Plain's mix of Victorian, Craftsman, and triple-decker homes requires roofing solutions that respect historic character while meeting modern performance standards.",
+        "nearbyAreas": [
+          "Roslindale",
+          "West Roxbury",
+          "Roxbury"
+        ]
+      },
+      {
+        "city": "Charlestown",
+        "slug": "charlestown-ma",
+        "state": "MA",
+        "content": "Charlestown's historic homes and waterfront condos need roofing built to handle both harsh winters and salty ocean air. Heritage Roof Masters brings specialized coastal expertise to every Charlestown project.\n\nWe're experienced with the neighborhood's mix of colonial-era homes and modern developments, from Bunker Hill's historic district to the Navy Yard's converted lofts. Our materials are chosen specifically for Charlestown's marine environment.\n\nSpecial challenges we address include preventing saltwater corrosion on waterfront properties, repairing slate roofs on historic homes near the Monument, and installing wind-resistant systems for exposed locations. We coordinate with Charlestown's preservation groups when working on protected properties.",
+        "localContext": "Charlestown's coastal location and historic homes require durable roofing materials that resist salt air while maintaining neighborhood character.",
+        "nearbyAreas": [
+          "East Boston",
+          "Somerville",
+          "Everett"
+        ]
+      },
+      {
+        "city": "Dorchester",
+        "slug": "dorchester-ma",
+        "state": "MA",
+        "content": "Dorchester's iconic triple-deckers and diverse architectural styles demand roofing contractors who understand neighborhood-specific needs. Heritage Roof Masters has served Dot homeowners for over a decade.\n\nWe're experienced with Dorchester's common roofing challenges, from proper ventilation for converted attic spaces to repairing flat roof sections on traditional triple-deckers. Our local crews work efficiently in the neighborhood's dense residential areas.\n\nSpecific issues we address include ice dam prevention on older homes near Savin Hill, storm damage repair in exposed areas like Columbia Point, and installing durable roofing systems that fit Dorchester homeowners' budgets. We keep popular materials in stock for quick repairs after severe weather.",
+        "localContext": "Dorchester's triple-deckers and varied housing styles require roofing solutions that combine durability with neighborhood-appropriate aesthetics.",
+        "nearbyAreas": [
+          "Mattapan",
+          "Milton",
+          "Quincy"
+        ]
+      },
+      {
+        "city": "West Roxbury",
+        "slug": "west-roxbury-ma",
+        "state": "MA",
+        "content": "West Roxbury homeowners trust Heritage Roof Masters for roofing that stands up to New England weather while complementing the neighborhood's suburban character. From Center's colonials to Bellevue Hill's estates, we've worked on virtually every roof type in the area.\n\nWe're experienced with West Roxbury's microclimates, installing heavier snow load systems for hilltop properties and wind-resistant solutions for exposed locations. Our local crews understand the importance of maintaining the neighborhood's quiet character during projects.\n\nCommon issues we address include proper attic ventilation for West Roxbury's many expanded Capes, repairing damage from falling limbs in tree-lined neighborhoods, and installing roofing systems that enhance the area's traditional aesthetic. We source materials that blend seamlessly with West Roxbury's architectural styles.",
+        "localContext": "West Roxbury's suburban homes range from Capes to Colonials, all requiring durable roofing that complements traditional neighborhood aesthetics.",
+        "nearbyAreas": [
+          "Roslindale",
+          "Dedham",
+          "Newton"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "Heritage replaced our 1920s slate roof in Back Bay with synthetic slate that looks identical but performs much better. They handled all the historic commission paperwork and completed the job with zero damage to our ornate cornices. Six nor'easters later, not a single leak.",
+        "date": "2024-03-15"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Storm Damage Repair",
+        "text": "When a tree limb punctured our roof during a Newton snowstorm, Heritage had a team out within hours to tarp the damage. Their insurance documentation was so thorough we had our claim approved in 48 hours. The repair blends perfectly with our Tudor's original roof.",
+        "date": "2024-01-22"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Gutter Installation",
+        "text": "Our Cambridge Victorian finally has gutters that don't overflow during heavy rains. Heritage replicated the original half-round profile in copper that matches our historic details. They even added hidden heating cables that have eliminated our ice dam problems completely.",
+        "date": "2024-02-10"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Commercial Roofing",
+        "text": "Heritage installed a new EPDM roof on our Quincy seafood restaurant with minimal disruption to our busy kitchen. The specialized flashing handles salt spray better than our old roof, and their quarterly maintenance program catches small issues before they become problems.",
+        "date": "2023-11-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Roof Inspection",
+        "text": "The pre-purchase inspection on our Jamaica Plain triple-decker revealed $15,000 in hidden storm damage we used to negotiate the price down. Heritage's thermal imaging found moisture issues even the seller didn't know about. Worth every penny.",
+        "date": "2023-10-18"
+      },
+      {
+        "name": "Aisha N.",
+        "rating": 5,
+        "service": "Metal Roofing",
+        "text": "Our Brookline 1930s colonial now has a standing seam metal roof that looks like it's always been there. Heritage matched the original profile perfectly and installed snow brakes that prevent dangerous slides. It's survived two winters with zero issues.",
+        "date": "2023-12-03"
+      },
+      {
+        "name": "Robert L.",
+        "rating": 5,
+        "service": "Shingle Repair",
+        "text": "After three other roofers said they couldn't match our discontinued shingles, Heritage found an identical match for our South End townhouse. The repair is invisible and came with a 5-year warranty. They even cleaned all the construction dust from our rooftop deck.",
+        "date": "2024-01-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boston Roofing Contractors | Heritage Roof Masters",
+        "description": "Trusted Boston roofing company specializing in historic homes and storm damage repair. Serving Cambridge, Newton, Brookline, and Quincy since 2011."
+      },
+      "about": {
+        "title": "About Our Boston Roofing Company",
+        "description": "Learn why Heritage Roof Masters has been Boston's trusted roofing specialist since 2011. Local craftsmen serving all historic neighborhoods."
+      },
+      "services": {
+        "title": "Boston Roofing Services | Heritage Roof Masters",
+        "description": "Complete roofing services for Boston homes including roof replacement, storm damage repair, and historic preservation. Free inspections available."
+      },
+      "contact": {
+        "title": "Contact Boston's Roofing Experts",
+        "description": "Schedule your free roof evaluation with Heritage Roof Masters. Serving all Boston neighborhoods including Back Bay, South End, and Beacon Hill."
+      },
+      "reviews": {
+        "title": "Boston Roofing Reviews | Heritage Roof Masters",
+        "description": "Read verified reviews from Boston homeowners who trusted Heritage Roof Masters for their roofing projects. Real experiences from your neighbors."
+      },
+      "service-areas": {
+        "title": "Boston Roofing Service Areas",
+        "description": "Heritage Roof Masters provides expert roofing services throughout Greater Boston including Cambridge, Newton, Brookline, and Quincy."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-replacement": "/images/service-roof-replacement.webp",
+      "storm-damage-repair": "/images/service-storm-damage-repair.webp",
+      "commercial-roofing": "/images/service-commercial-roofing.webp",
+      "gutter-installation": "/images/service-gutter-installation.webp",
+      "roof-inspection": "/images/service-roof-inspection.webp",
+      "shingle-repair": "/images/service-shingle-repair.webp",
+      "metal-roofing": "/images/service-metal-roofing.webp"
+    },
+    "servicesResponsive": {
+      "roof-replacement": {
+        "src": "/images/service-roof-replacement.webp",
+        "srcset": "/images/service-roof-replacement-400w.webp 400w, /images/service-roof-replacement-800w.webp 800w, /images/service-roof-replacement-1200w.webp 1200w, /images/service-roof-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-damage-repair": {
+        "src": "/images/service-storm-damage-repair.webp",
+        "srcset": "/images/service-storm-damage-repair-400w.webp 400w, /images/service-storm-damage-repair-800w.webp 800w, /images/service-storm-damage-repair-1200w.webp 1200w, /images/service-storm-damage-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-roofing": {
+        "src": "/images/service-commercial-roofing.webp",
+        "srcset": "/images/service-commercial-roofing-400w.webp 400w, /images/service-commercial-roofing-800w.webp 800w, /images/service-commercial-roofing-1200w.webp 1200w, /images/service-commercial-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-installation": {
+        "src": "/images/service-gutter-installation.webp",
+        "srcset": "/images/service-gutter-installation-400w.webp 400w, /images/service-gutter-installation-800w.webp 800w, /images/service-gutter-installation-1200w.webp 1200w, /images/service-gutter-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-inspection": {
+        "src": "/images/service-roof-inspection.webp",
+        "srcset": "/images/service-roof-inspection-400w.webp 400w, /images/service-roof-inspection-800w.webp 800w, /images/service-roof-inspection-1200w.webp 1200w, /images/service-roof-inspection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "shingle-repair": {
+        "src": "/images/service-shingle-repair.webp",
+        "srcset": "/images/service-shingle-repair-400w.webp 400w, /images/service-shingle-repair-800w.webp 800w, /images/service-shingle-repair-1200w.webp 1200w, /images/service-shingle-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "metal-roofing": {
+        "src": "/images/service-metal-roofing.webp",
+        "srcset": "/images/service-metal-roofing-400w.webp 400w, /images/service-metal-roofing-800w.webp 800w, /images/service-metal-roofing-1200w.webp 1200w, /images/service-metal-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

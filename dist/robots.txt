@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-heritage-roof-masters.dream-surge.com/sitemap-index.xml
